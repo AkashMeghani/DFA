@@ -1,0 +1,11 @@
+[
+   
+    {
+        "device_type": "hx",
+        "hostname": "10.1.1.132",
+        "password": "P@ssw0rd!23",
+        "username": "admin",
+        "read_only": false
+    }
+
+]
