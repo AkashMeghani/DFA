@@ -5,11 +5,11 @@ user = "admin"
 password = "P@ssw0rd!23"
 
 servers = []
-with open('/Users/ameghani/Desktop/Test/iplist.csv', 'r') as file:
+with open('../iplist.csv', 'r') as file:
     servers = file.read().splitlines()
 
 hostname = ""
-with open('/Users/ameghani/Desktop/Test/hostname.csv', 'r') as file:
+with open('../hostname.csv', 'r') as file:
     hostname = file.read().strip()
 
 handle = ImcHandle()
